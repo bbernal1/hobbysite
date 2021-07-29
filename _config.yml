@@ -28,7 +28,20 @@ baseurl: "/hobbysite" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-author: Brian
+author:
+  name   : "Brian Bernal"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Welcome to my blog where I will post about my personal projects and anything programming related."
+  links:
+    - label: "Linkedin"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/bebernal2/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bbernal1"
+    - label: "Flashcard Application"
+      icon: "fas fa-fw fa-link"
+      url: "https://jpcards.herokuapp.com"
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
